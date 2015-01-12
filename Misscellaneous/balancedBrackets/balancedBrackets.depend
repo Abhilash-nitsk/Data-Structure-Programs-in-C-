@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1420715429 source:c:\users\abhilash\documents\codeblocks\1.....new\misscellaneous\balancedbrackets\balancedbrackets.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

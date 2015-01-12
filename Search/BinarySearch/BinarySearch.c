@@ -8,8 +8,10 @@ void binarySearch(int * A , int low, int high, int num)
     int static pass = 0;
     mid=(low+high)/2;
     pass++;
-   while(low<=high)
+   if(high<=low)
    {
+       return;
+   }
     if(A[mid]==num)
     {
         printf("\nSearch Successful in  %d  pass",pass);
@@ -19,9 +21,7 @@ void binarySearch(int * A , int low, int high, int num)
         binarySearch(A,low,mid,num);
     else
         binarySearch(A,mid+1,high, num);
-
    }
-}
 int main()
 {
     int A[10];
